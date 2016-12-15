@@ -1,18 +1,4 @@
 INDEX VERSION 1.129+/root/workspace/Hackerrank/.metadata/.plugins/org.eclipse.jdt.core
+3104383986.index
 1302550890.index
-592249139.index
-119859708.index
-1156021587.index
-2739060387.index
-1327858452.index
-2078043821.index
-881523356.index
-1643160580.index
-1373993462.index
-2793832231.index
-2970295169.index
-4233726750.index
-419894164.index
-613131526.index
 3074455524.index
-3358628407.index

@@ -1,0 +1,40 @@
+package com.hackerranck;
+
+import java.util.Scanner;
+
+import javax.activity.InvalidActivityException;
+
+class Calculator{
+	
+	int power(int n, int p) throws InvalidActivityException{
+		
+		if (n < 0 || p < 0) {
+			throw new InvalidActivityException("n and p should be non-negative");
+		} 
+			return (int) (Math.pow(n, p));
+		
+	}
+}
+
+public class Solution {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		
+		while(T-->0){
+			int n = sc.nextInt();
+			int p = sc.nextInt();
+			Calculator calculator = new Calculator();
+			try {
+				
+				int res = calculator.power(n, p);
+				System.out.println(res);
+				
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+
+}
